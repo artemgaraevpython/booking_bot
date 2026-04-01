@@ -1,0 +1,20 @@
+{
+  "bot_token": "8477911411:AAFN8Ibd1vIpQP0E1gtZz6vJV9UqLZH-44g",
+  "owner_id": 7142729263,
+  "booking_interval_minutes": 90,
+  "services": [
+    {"name": "Персональная оффлайн тренировка", "price": 2500, "duration_minutes": 90},
+    {"name": "Персональная онлайн тренировка", "price": 1900, "duration_minutes": 90}
+  ],
+  "work_schedule": {
+    "monday": {"start": "10:00", "end": "18:00"},
+    "tuesday": {"start": "10:00", "end": "18:00"},
+    "wednesday": {"start": "10:00", "end": "18:00"},
+    "thursday": {"start": "10:00", "end": "18:00"},
+    "friday": {"start": "10:00", "end": "18:00"},
+    "saturday": {"start": "10:00", "end": "15:00"},
+    "sunday": null
+  },
+  "timezone": "Europe/Moscow",
+  "max_days_ahead": 7
+}
