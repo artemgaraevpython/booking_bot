@@ -1,4 +1,4 @@
-# Telegram Bot Template: Appointment Booking
+# Telegram-бот для записи клиентов
 
 Этот проект представляет собой шаблон Telegram-бота для записи клиентов. Бот предназначен для мастеров, барберов, тренеров и других специалистов, которые хотят автоматизировать запись клиентов. Основная фишка — гибкая настройка через файл `config.json`, что позволяет адаптировать бота под разные сферы услуг без изменения кода.
 
@@ -20,8 +20,8 @@
 ## Требования
 
 - Python 3.10 или выше
-- Telegram Bot Token (получить у [@BotFather](https://t.me/BotFather))
-- Telegram ID владельца (можно узнать у бота [@userinfobot](https://t.me/userinfobot))
+- Telegram Bot Token (tg: @BotFather)
+- Telegram ID владельца
 
 ## Установка и запуск
 
@@ -29,3 +29,20 @@
    ```bash
    git clone https://github.com/your-username/booking-bot.git
    cd booking-bot
+
+2. **Создайте виртуальное окружение**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
+
+3. **Установите зависимости**
+   ```bash
+   pip install -r requirements.txt
+
+4. **Настройте бота**
+   Отредактируйте файл config.json, указав свои параметры.
+
+5. **Запустите бота**
+    ```bash
+    python main.py
